@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLCA Thanksgiving Boxes</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <h1>HLCA Thanksgiving Boxes</h1>
+                <p><a href="./admin.html">Admin Portal</a></p>
+                <p><a href="./donate.html">Donate</a></p>
+            </nav>
+        </header>
+        <section id="form">
+            <form action="">
+                <label for="famname">Family Name</label>
+                <br>
+                <input class="form-data" type="text" id="famname" placeholder="Jane Doe" name="famname" required>
+                <br><br>
+                <label for="famphone">Phone Number</label>
+                <br>
+                <input class="form-data" type="tel" id="famphone" placeholder="(208) 437 - 2184" name="famphone" required>
+                <br><br>
+                <label for="contper">Contact Person*</label> <br>
+                <input class="form-data" type="text" id="contper" placeholder="John Smith" name="contper" required>
+                <br><br>
+                <label for="contphone">Phone Number*</label>
+                <br>
+                <input class="form-data" type="tel" id="contphone" placeholder="(123) 456 - 7890" name="contphone" required>
+                <br><br>
+                <label for="famsize">Number of Family Members</label>
+                <br>
+                <input class="form-data" type="number" id="famsize" min="1" placeholder="4" name="famsize" required>
+                <br><br>
+                <label for="pickupper">Name of Person Picking Up Your Basket</label>
+                <br>
+                <input class="form-data" type="text" id="pickupper" placeholder="John Smith" name="pickupper" required>
+                <br><br>
+                <label for="pickupphone">Phone Number of Person Picking Up Your Basket</label>
+                <br>
+                <input class="form-data" type="tel" name="pickupphone" id="pickupphone" placeholder="(123) 456 - 7890" required>
+                <br><br>
+                <button>Request Your Thanksgiving Basket</button>
+            </form>
+        </section>
+        <p>*This needs to be a person that can be reached in case we get a non-working number when we attempt to call you. If no second number is provided and we cannot reach you, you may not be receiving your basket.</p>
+    </main>
+</body>
+</html>

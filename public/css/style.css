@@ -1,0 +1,11 @@
+nav > p {
+    text-align: right;
+}
+nav > h1 {
+    color: rgb(61, 36, 109);
+}
+button:hover {
+    background-color: rgb(61, 36, 109);
+    color: #ffffff;
+    transition: 0.25s;
+}
