@@ -15,11 +15,11 @@ button:hover {
 }
 @font-face {
     font-family: Futura;
-    src: url() ./public/fonts/futura/futur.ttf;
+    src: url("./public/fonts/futura/futur.ttf");
 }
 @font-face {
     font-family: "Futura Book";
-    src: url() "./public/fonts/futura/Futura Book font.ttf";
+    src: url("./public/fonts/futura/Futura Book font.ttf");
 }
 body {
     font-family: "Futura Book", sans-serif;
@@ -37,4 +37,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+th {
+    padding: 0 1em;
 }
