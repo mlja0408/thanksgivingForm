@@ -1,0 +1,19 @@
+{
+  "name": "thanksgivingform",
+  "version": "1.0.0",
+  "description": "Thankgiving Boxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlja0408/thanksgivingForm.git"
+  },
+  "author": "Mr. Lang's Class",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlja0408/thanksgivingForm/issues"
+  },
+  "homepage": "https://github.com/mlja0408/thanksgivingForm#readme"
+}
