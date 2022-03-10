@@ -42,7 +42,8 @@ th {
     padding: 0 1em;
 }
 .form-label {
-    margin-bottom: 1em;
+    margin-bottom: 5px;
+    display: block;
 }
 /* td {
     padding: 0 1em;
