@@ -45,15 +45,23 @@
                 <label for="dietary-restrictions">Dietary Restrictions</label>
                 <br>
                 <select class="form-data" type="textarea" id="dietary-restrictions" placeholder="Dietary Restrictions" name="dietary-restrictions" required>
-                    <option>None</option>
-                    <option>Peanuts</option>
-                    <option>Soy</option>
-                    <option>Dairy</option>
+                    <option value="none">None</option>
+                    <option value="peanuts">Peanuts</option>
+                    <option value="soy">Soy</option>
+                    <option value="dairy">Dairy</option>
+                    <!-- <option value="other">Other - Please Specify</option> -->
+                    <!-- Figured ^ might be useful.-->
                 </select>
+                <!--
+                    <label for="other-dietary-restrictions">If other, Please Specify</label>
+                    <input type="text" id="other-dietary-restrictions" placeholder="Gluten" class="form-data" name="other-dietary-restrictions">
+                -->
                 <br><br>
                 <label for="notes">Notes</label>
                 <br>
-                <input class="form-data" type="textarea" id="notes" placeholder="notes" name="notes">
+                <input class="form-data" type="textarea" id="notes" placeholder="Notes" name="notes">
+                <!-- <textarea name="notes" id="notes" cols="30" rows="10" class="form-data" name="notes" placeholder="Notes"></textarea> -->
+                <!-- The input type above just displays a single line text field. If you want to use this, it's ready to go, just uncomment it.-->
                 <br><br>
 
                 <button>Request Your Thanksgiving Basket</button>
