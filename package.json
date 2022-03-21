@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mlja0408/thanksgivingForm/issues"
   },
-  "homepage": "https://github.com/mlja0408/thanksgivingForm#readme"
+  "homepage": "https://github.com/mlja0408/thanksgivingForm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
