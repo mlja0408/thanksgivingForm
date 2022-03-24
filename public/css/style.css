@@ -59,7 +59,11 @@ input {
     border-bottom: 3px solid #3D246D;
     background-color: #DCDCDC;
 }
-
+select {
+    background-color: #DCDCDC;
+    border: 0;
+    border-bottom: 3px solid #3D246D;
+}
 /* td {
     padding: 0 1em;
 } */ 
