@@ -52,6 +52,7 @@ textarea {
     border: 0;
     border-bottom: 3px solid #3D246D;
     background-color: #DCDCDC;
+    width: 100%;
 }
 input {
     border: 0;
@@ -89,6 +90,14 @@ main {
     border: none;
     outline: none;
     border-bottom: 3px solid #3D246D;
+}
+#halfOne {
+    width: 50%;
+    float: left;
+}
+#halfTwo {
+    width: 50%;
+    float: left;
 }
 /* td {
     padding: 0 1em;
