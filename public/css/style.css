@@ -65,15 +65,15 @@ select {
 }
 
 #form {
-    background: rgba(0,0,0, 0.8);
+    /* background: rgba(0,0,0, 0.8); */
     border-radius: 5px;
     padding: 1em;
 }
 
 .donation-page-form-label {
     display: inline-block;
-    margin-bottom: 1em;
-    color: #7962A2;
+    margin-bottom: 0.5em;
+    /* color: #7962A2; */
 }
 
 main {
@@ -88,6 +88,7 @@ main {
 .form-data:focus {
     border: none;
     outline: none;
+    border-bottom: 3px solid #3D246D;
 }
 /* td {
     padding: 0 1em;
