@@ -1,7 +1,7 @@
 nav > p {
     text-align: right;
 }
-nav > h1 {
+h1 {
     color: #3D246D;
     font-family: Futura, sans-serif;
     width: 50%;
@@ -92,13 +92,17 @@ main {
     outline: none;
     border-bottom: 3px solid #3D246D;
 }
-#halfOne {
-    width: 50%;
-    float: left;
-}
-#halfTwo {
-    width: 50%;
-    float: left;
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+@media screen and (max-width: 675px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+    #halfTwo {
+      margin-top: 0.5em;  
+    }
 }
 /* td {
     padding: 0 1em;

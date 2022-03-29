@@ -11,15 +11,15 @@
 <body>
     <main>
         <header>
+            <h1>HLCA Thanksgiving Boxes</h1>
             <nav>
-                <h1>HLCA Thanksgiving Boxes</h1>
                 <p><a href="./admin-login.html">Admin Portal</a></p>
                 <p><a href="./donate.html">Donate</a></p>
             </nav>
         </header>
         <section id="form">
             <form action="">
-                <section id="halfOne">
+                <section class="form-containers">
                 <label class="donation-page-form-label" for="famname">Family Name</label>
                 <br>
                 <input class="form-data" type="text" id="famname" placeholder="Jane Doe" name="famname" required>
@@ -35,7 +35,7 @@
                 <br>
                 <input class="form-data" type="tel" id="contphone" placeholder="(123) 456 - 7890" name="contphone">
                 </section>
-                <section id="halfTwo">
+                <section class="form-containers">
                 <label class="donation-page-form-label" for="famsize">Number of Family Members</label>
                 <br>
                 <input class="form-data" type="number" id="famsize" min="1" placeholder="4" name="famsize" required>
@@ -61,12 +61,12 @@
                 
                 <br>
                 </section>
-                <label class="donation-page-form-label" for="notes">Notes</label>
-                <textarea class="form-data" name="notes" id="notes" cols="30" rows="10" class="form-data" name="notes" placeholder="Notes"></textarea>
-
-                <br><br>
-
-                <button>Request Your Thanksgiving Basket</button>
+                <section id="form-end">
+                    <label class="donation-page-form-label" for="notes">Notes</label>
+                    <textarea class="form-data" name="notes" id="notes" cols="30" rows="1" class="form-data" name="notes" placeholder="Notes"></textarea>
+                    <br><br>
+                    <button>Request Your Thanksgiving Basket</button>
+                </section>
             </form>
         </section>
         <br><br>
