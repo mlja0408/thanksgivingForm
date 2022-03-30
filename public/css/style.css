@@ -1,7 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 15px;
+}
+
 nav > p {
     text-align: right;
 }
-h1 {
+
+header > h1 {
     color: #3D246D;
     font-family: Futura, sans-serif;
     width: 50%;
@@ -95,13 +105,13 @@ main {
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-} 
+}
 @media screen and (max-width: 675px) {
     form {
         grid-template-columns: 1fr;
     }
     #halfTwo {
-      margin-top: 0.5em;  
+      margin-top: 0.5em;
     }
 }
 /* td {
