@@ -116,6 +116,9 @@ form {
       margin-top: 0.5em;
     }
 }
+#form-end {
+    grid-column: span 2 / 2;
+}
 /* td {
     padding: 0 1em;
 } */
