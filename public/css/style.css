@@ -82,7 +82,7 @@ select {
 #form {
     /* background: rgba(0,0,0, 0.8); */
     border-radius: 5px;
-    padding: 1em;
+    padding: 0;
 }
 
 .donation-page-form-label {
@@ -105,12 +105,12 @@ main {
     outline: none;
     border-bottom: 3px solid #3D246D;
 }
-form {
+.form-inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 675px) {
-    form {
+    .form-inputs {
         grid-template-columns: 1fr;
     }
     #halfTwo {
@@ -119,6 +119,7 @@ form {
 }
 #form-end {
     grid-column: span 2 / 2;
+    margin-top: 1em;
 }
 #form-end > label.donation-page-form-label {
     margin-top: 1em;
