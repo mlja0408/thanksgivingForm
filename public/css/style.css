@@ -63,8 +63,8 @@ textarea {
     border: 0;
     border-bottom: 3px solid #3D246D;
     background-color: #DCDCDC;
-    max-width: 615px;
-    width: 615px;
+    max-width: 625px;
+    width: 625px;
 }
 input {
     border: 0;
@@ -119,6 +119,9 @@ form {
 }
 #form-end {
     grid-column: span 2 / 2;
+}
+#form-end > label.donation-page-form-label {
+    margin-top: 1em;
 }
 /* td {
     padding: 0 1em;
