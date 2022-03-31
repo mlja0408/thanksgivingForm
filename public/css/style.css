@@ -64,6 +64,7 @@ textarea {
     border-bottom: 3px solid #3D246D;
     background-color: #DCDCDC;
     max-width: 615px;
+    width: 615px;
 }
 input {
     border: 0;
