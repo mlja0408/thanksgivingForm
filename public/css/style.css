@@ -116,6 +116,9 @@ main {
     #halfTwo {
       margin-top: 0.5em;
     }
+    #form-end {
+        overflow: hidden;
+    }
 }
 #form-end {
     grid-column: span 2 / 2;
