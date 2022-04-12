@@ -127,6 +127,9 @@ main {
 #form-end > label.donation-page-form-label {
     margin-top: 1em;
 }
+#box-request-table{
+    text-align: center;
+}
 /* td {
     padding: 0 1em;
 } */
