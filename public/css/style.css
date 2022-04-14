@@ -53,6 +53,8 @@ a:hover {
 }
 th {
     padding: 0 1em;
+    height: 15px;
+    width: 100px;
 }
 .form-label {
     margin-bottom: 5px;
@@ -130,6 +132,16 @@ main {
 #box-request-table{
     text-align: center;
 }
-/* td {
-    padding: 0 1em;
-} */
+table {
+    table-layout: fixed;
+    margin: auto;
+}
+td {
+    padding: 0.5em 0;
+    height: 15px;
+    width: 100px;
+}
+.note-text {
+    height: 30px;
+    overflow-y: scroll;
+}

@@ -9,14 +9,15 @@
     <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<main>
     <header>
         <h1>HLCA Thanksgiving Box Administrator Portal</h1>
         <nav>
             <p><a href="./index.html">Home</a></p>
             <p><a href="./admin-login.html">Log Out</a></p>
         </nav>
+    
     </header>
-    <main>
         <section id="box-request-table">
             <table>
                 <thead>
@@ -25,14 +26,36 @@
                         <th>Number of Family Members</th>
                         <th>Phone Number</th>
                         <th>Pickup Person</th>
-                        <th>Contact Person</th>
+                        <th>Alternate Contact</th>
                         <th>Dietary Restrictions</th>
-                        <th>Contact Person Phone</th>
+                        <th>Alternate Contact Phone</th>
                         <th>Other</th>
-                        <th>Notes</th>
+                        <th class="notes">Notes</th>
                     </tr>
                 </thead>
                 <tbody id="admin-table-root">
+                    <tr>
+                        <td>Doe</td>
+                        <td>3</td>
+                        <td>2089467251</td>
+                        <td>Jane Doe</td>
+                        <td>John Doe</td>
+                        <td>None</td>
+                        <td>1527649802</td>
+                        <td>None</td>
+                        <td class="notes"><div class="note-text">notes notes notes notes notes notes notesnotes notes notes notes notes notes notesnotes notes notes notes notes notes notesnotes notes notes notes notes notes notes</div></td>
+                    </tr>
+                    <tr>
+                        <td>Mario</td>
+                        <td>2</td>
+                        <td>1234567890</td>
+                        <td>Mario Mario</td>
+                        <td>Luigi Mario</td>
+                        <td>None</td>
+                        <td>0987654321</td>
+                        <td>None</td>
+                        <td class="notes"><div class="note-text">Make it as Italian as possible (Yahoo)</div></td>
+                    </tr>
                 </tbody>
             </table>
         </section>
