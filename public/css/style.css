@@ -55,6 +55,7 @@ th {
     padding: 0 1em;
     height: 15px;
     width: 100px;
+    border: 1px solid #000000;
 }
 .form-label {
     margin-bottom: 5px;
@@ -135,13 +136,18 @@ main {
 table {
     table-layout: fixed;
     margin: auto;
+    border-collapse: collapse;
 }
 td {
     padding: 0.5em 0;
     height: 15px;
     width: 100px;
+    border: 1px solid #000000;
 }
 .note-text {
     height: 30px;
     overflow-y: scroll;
+}
+tbody > tr:nth-of-type(2n) {
+    background-color: #C0C0C0;
 }
