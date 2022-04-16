@@ -83,7 +83,6 @@ select {
 }
 
 #form {
-    /* background: rgba(0,0,0, 0.8); */
     border-radius: 5px;
     padding: 0;
 }
@@ -91,7 +90,6 @@ select {
 .donation-page-form-label {
     display: inline-block;
     margin-bottom: 0.5em;
-    /* color: #7962A2; */
 }
 
 main {
