@@ -61,15 +61,7 @@ th {
     margin-bottom: 5px;
     display: block;
 }
-textarea {
-    margin-top: 30px;
-    font-family: "Futura Book", sans-serif;
-    border: 0;
-    border-bottom: 3px solid #3D246D;
-    background-color: #DCDCDC;
-    max-width: 625px;
-    width: 625px;
-}
+
 input {
     border: 0;
     border-bottom: 3px solid #3D246D;
@@ -146,5 +138,12 @@ tbody > tr:nth-of-type(2n) {
     background-color: #C0C0C0;
 }
 #notes {
-    width: 100px;
+    display: block;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    border: 3px solid #3D246D;
+    height: 80px;
+    font-family: "Futura Book", sans-serif;
+    background-color: #DCDCDC;
+    max-width: 625px;
 }
