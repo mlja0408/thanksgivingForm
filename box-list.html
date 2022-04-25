@@ -7,6 +7,7 @@
     <title>HLCA Thansgiving Box Administrator Portal</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon">
+    <script src="./public/js/main.js"></script>
 </head>
 <body>
     <main>
@@ -19,7 +20,7 @@
 
         </header>
         <section id="box-request-table">
-            <table>
+            <table id="tableRoot">
                 <thead>
                     <tr>
                         <th>Family Name</th>
@@ -30,10 +31,10 @@
                         <th>Dietary Restrictions</th>
                         <th>Alternate Contact Phone</th>
                         <th>Other</th>
-                        <th class="notes">Notes</th>
+                        <th>Notes</th>
                     </tr>
                 </thead>
-                <tbody id="admin-table-root">
+                <tbody id="tableBodyRoot">
                     <tr>
                         <td>Doe</td>
                         <td>3</td>
@@ -60,6 +61,5 @@
             </table>
         </section>
     </main>
-    <script src="./public/js/main.js"></script>
 </body>
 </html>
