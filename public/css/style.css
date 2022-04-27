@@ -33,7 +33,7 @@ button:hover {
 }
 body {
     font-family: "Futura Book", sans-serif;
-    background-color: #DCDCDC;
+    background-color: #ffffff;
 }
 form {
     text-align: center;
@@ -61,23 +61,23 @@ th {
     margin-bottom: 5px;
     display: block;
 }
-textarea {
-    margin-top: 30px;
+#notes {
+    display:block;
+    margin: 20px auto 0 auto;
+    border: 3px solid #3D246D;
+    height: 80px;
     font-family: "Futura Book", sans-serif;
-    border: 0;
-    border-bottom: 3px solid #3D246D;
-    background-color: #DCDCDC;
-    max-width: 625px;
-    width: 625px;
+    background-color: none;
+    max-width: 900px;
 }
 input {
     border: 0;
     border-bottom: 3px solid #3D246D;
-    background-color: #DCDCDC;
+    background-color: none;
     width: 300px;
 }
 select {
-    background-color: #DCDCDC;
+    background-color: none;
     border: 0;
     border-bottom: 3px solid #3D246D;
     width: 313px;
@@ -144,7 +144,4 @@ td {
 }
 tbody > tr:nth-of-type(2n) {
     background-color: #C0C0C0;
-}
-#notes {
-    width: 100px;
 }
