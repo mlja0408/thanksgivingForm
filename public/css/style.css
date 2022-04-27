@@ -158,3 +158,6 @@ tbody > tr:nth-of-type(2n) {
     background-color: none;
     max-width: 625px;
 }
+#admin-login {
+    margin-top: 40px;
+}
