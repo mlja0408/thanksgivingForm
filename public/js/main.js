@@ -19,13 +19,13 @@ function writeData() {
     familyData.forEach((tableData) => {
         tableBody.innerHTML += makeFamilyRow(tableData);
     }
-}
-function getTableBodyRoot() {
-    return document.getElementById('tableBodyRoot');
-}
+    )
+    function getTableBodyRoot() {
+        return document.getElementById('tableBodyRoot');
+    }
 
-function makeFamilyRow(tableData) {
-    return `
+    function makeFamilyRow(tableData) {
+        return `
         <tr>
             <td>${tableData.familyName}</td>
             <td>${tableData.numberOfFamilyMembers}</td>
@@ -38,4 +38,5 @@ function makeFamilyRow(tableData) {
             <td class="notes">${tableData.notes}</td>
         </tr>    
     `
+    }
 }
