@@ -6,7 +6,6 @@ async function get() {
     try {
         const tableDatabase = await fetch('https://run.mocky.io/v3/e4d1c593-d790-49f3-b94d-f3d17f59a918');
         const tableData = await tableDatabase.json();
-        familyData = tableData.rows;
         writeData();
     }
     catch(e) {
