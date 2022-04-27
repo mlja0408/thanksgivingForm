@@ -22,6 +22,7 @@ button:hover {
     transition: 0.25s;
     border: 0;
     cursor: pointer;
+    background-color: #533194;
 }
 @font-face {
     font-family: Futura;
