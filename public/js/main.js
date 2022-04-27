@@ -31,8 +31,8 @@ function writeData() {
             <td>${tableData.phoneNumber}</td>
             <td>${tableData.pickupPerson}</td>
             <td>${tableData.contactPerson}</td>
-            <td>${tableData.contactPersonPhone}</td>
             <td>${tableData.dietaryRestrictions}</td>
+            <td>${tableData.contactPersonPhone}</td>
             <td>${tableData.otherDietaryRestrictions}</td>
             <td class="notes">${tableData.notes}</td>
         </tr>    
