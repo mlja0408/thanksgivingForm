@@ -153,6 +153,6 @@ tbody > tr:nth-of-type(2n) {
     border: 3px solid #3D246D;
     height: 80px;
     font-family: "Futura Book", sans-serif;
-    background-color: #DCDCDC;
+    background-color: none;
     max-width: 625px;
 }
