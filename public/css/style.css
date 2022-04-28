@@ -83,7 +83,7 @@ input {
 select {
     margin: 15px;
     background-color: none;
-    color: gray;
+    /* color: gray; - Placeholder is black because one of our values is none and it defaults to none */
     border: 0;
     border-bottom: 3px solid #3D246D;
     width: 313px;
@@ -104,11 +104,11 @@ main {
     margin: 0 auto;
 }
 
-.form-data {
+.formData {
     padding: 0.5em;
 }
 
-.form-data:focus {
+.formData:focus {
     border: none;
     outline: none;
     border-bottom: 3px solid #3D246D;

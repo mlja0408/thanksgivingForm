@@ -5,8 +5,7 @@ let familyData;
 async function get() {
     try {
         const tableDatabase = await fetch('https://run.mocky.io/v3/e4d1c593-d790-49f3-b94d-f3d17f59a918');
-        const tableData = await tableDatabase.json();
-        familyData = tableData.rows;
+        familyData = await tableDatabase.json();
         writeData();
     }
     catch(e) {
@@ -32,8 +31,8 @@ function writeData() {
             <td>${tableData.phoneNumber}</td>
             <td>${tableData.pickupPerson}</td>
             <td>${tableData.contactPerson}</td>
-            <td>${tableData.contactPersonPhone}</td>
             <td>${tableData.dietaryRestrictions}</td>
+            <td>${tableData.contactPersonPhone}</td>
             <td>${tableData.otherDietaryRestrictions}</td>
             <td class="notes">${tableData.notes}</td>
         </tr>    
