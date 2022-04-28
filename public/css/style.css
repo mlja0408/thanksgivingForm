@@ -36,6 +36,9 @@ body {
     font-family: "Futura Book", sans-serif;
     background-color: #ffffff;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
 form {
     text-align: center;
 }
