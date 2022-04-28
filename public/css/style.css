@@ -161,6 +161,7 @@ tbody > tr:nth-of-type(2n) {
     font-family: "Futura Book", sans-serif;
     background-color: none;
     max-width: 625px;
+    font-size: 16px;
 }
 #admin-login {
     margin-top: 40px;
