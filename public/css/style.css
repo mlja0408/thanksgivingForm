@@ -79,6 +79,7 @@ input {
     border-bottom: 3px solid #3D246D;
     background-color: none;
     width: 300px;
+    font-size: 16px;
 }
 select {
     margin: 15px;
@@ -160,6 +161,7 @@ tbody > tr:nth-of-type(2n) {
     font-family: "Futura Book", sans-serif;
     background-color: none;
     max-width: 625px;
+    font-size: 16px;
 }
 #admin-login {
     margin-top: 40px;
