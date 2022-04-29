@@ -19,36 +19,36 @@
             </nav>
         </header>
         <section id="form">
-            <form action="#">
+            <form action="" id="formRoot">
                 <section class="form-inputs">
                 <section class="form-containers">
                 <label class="donation-page-form-label" for="familyName">Family Name</label>
                 <br>
-                <input class="form-data" type="text" id="familyName" placeholder="Jane Doe" name="familyName" required>
+                <input class="formData" type="text" id="familyName" placeholder="Jane Doe" name="familyName" required>
                 <br><br>
                 <label class="donation-page-form-label" for="phoneNumber">Phone Number</label>
                 <br>
-                <input class="form-data" type="tel" id="phoneNumber" placeholder="(208) 437 - 2184" name="phoneNumber" required>
+                <input class="formData" type="tel" id="phoneNumber" placeholder="(208) 437 - 2184" name="phoneNumber" required>
                 <br><br>
                 <label class="donation-page-form-label" for="contactPerson">Alternate Contact</label> <br>
-                <input class="form-data" type="text" id="contactPerson" placeholder="John Smith" name="contactPerson">
+                <input class="formData" type="text" id="contactPerson" placeholder="John Smith" name="contactPerson">
                 <br><br>
                 <label class="donation-page-form-label" for="contactPersonPhone">Alternate Contact's Phone Number</label>
                 <br>
-                <input class="form-data" type="tel" id="contactPersonPhone" placeholder="(123) 456 - 7890" name="contactPersonPhone">
+                <input class="formData" type="tel" id="contactPersonPhone" placeholder="(123) 456 - 7890" name="contactPersonPhone">
                 </section>
                 <section class="form-containers" id="halfTwo">
                 <label class="donation-page-form-label" for="numberOfFamilyMembers">Number of Family Members</label>
                 <br>
-                <input class="form-data" type="number" id="numberOfFamilyMembers" min="1" placeholder="4" name="numberOfFamilyMembers" required>
+                <input class="formData" type="number" id="numberOfFamilyMembers" min="1" placeholder="4" name="numberOfFamilyMembers" required>
                 <br><br>
                 <label class="donation-page-form-label" for="pickupPerson">Name of Person Picking Up Your Basket</label>
                 <br>
-                <input class="form-data" type="text" id="pickupPerson" placeholder="John Smith" name="pickupPerson" required>
+                <input class="formData" type="text" id="pickupPerson" placeholder="John Smith" name="pickupPerson" required>
                 <br><br>
                 <label class="donation-page-form-label" for="dietaryRestrictions">Dietary Restrictions</label>
                 <br>
-                <select class="form-data" type="textarea" id="dietaryRestrictions" placeholder="Dietary Restrictions" name="dietaryRestrictions" required>
+                <select class="formData" type="textarea" id="dietaryRestrictions" placeholder="Dietary Restrictions" name="dietaryRestrictions" required>
                     <option value="none">None</option>
                     <option value="peanuts">Peanuts</option>
                     <option value="soy">Soy</option>
@@ -61,9 +61,9 @@
                 </section>
                 <section id="form-end">
                     <label class="donation-page-form-label" for="notes">Notes</label>
-                    <textarea class="form-data" name="notes" id="notes" cols="40" rows="1"placeholder="Notes"></textarea>
+                    <textarea class="formData" name="notes" id="notes" cols="40" rows="1"placeholder="Notes"></textarea>
                     <br><br>
-                    <button>Request Your Thanksgiving Basket</button>
+                    <button type="button" id="button" onclick="logData()">Request Your Thanksgiving Basket</button>
                 </section>
             </form>
         </section>
