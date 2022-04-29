@@ -12,11 +12,10 @@ catch (e) {
     console.log(e);
 }
 
-const familyData = [familyName.value, phoneNumber.value, contactPerson.value, contactPersonPhone.value, numberOfFamilyMembers.value,
-    pickupPerson.value, dietaryRestrictions.value, notes.value]
-
 try {
     function logData() {
+        const familyData = [familyName.value, phoneNumber.value, contactPerson.value, contactPersonPhone.value, numberOfFamilyMembers.value, pickupPerson.value,
+            dietaryRestrictions.value, notes.value];
         console.log(familyData);
         alert('Thank You! Your request has been submitted');
     }
