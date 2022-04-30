@@ -18,7 +18,7 @@ try {
         const familyData = [familyName.value, phoneNumber.value, contactPerson.value, contactPersonPhone.value, numberOfFamilyMembers.value, pickupPerson.value,
             dietaryRestrictions.value, otherDietaryRestrictions.value, notes.value];
         console.log(familyData);
-        alert('Thank You! Your request has been submitted');
+        alert('Thank You! Your request has been submitted!');
         document.getElementById('formRoot').reset();
     }
 }
