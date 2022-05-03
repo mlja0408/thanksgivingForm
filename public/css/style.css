@@ -57,6 +57,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 th {
     padding: 0 1em;
