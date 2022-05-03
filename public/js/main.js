@@ -4,7 +4,7 @@ let familyData;
 
 async function get() {
     try {
-        const tableDatabase = await fetch('https://run.mocky.io/v3/e4d1c593-d790-49f3-b94d-f3d17f59a918');
+        const tableDatabase = await fetch('http://hlcathanksgivingboxes.com:3000/list');
         familyData = await tableDatabase.json();
         writeData();
     }
