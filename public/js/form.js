@@ -27,7 +27,7 @@ try {
             notes: notes.value
         };
 
-        fetch('http://hlcathanksgivingboxes.com:3000/createinner', {
+        fetch('http://hlcathanksgivingboxes.com:3000/createdinner', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ try {
             .then(() => {
             alert('Thank You! Your request has been submitted!');
             document.getElementById('formRoot').reset();
-        }).catch((e) => console.error(e.stack));
+            }).catch((e) => console.error(e.stack), alert('Your request could not be submitted. Please call for assistance.'));
     }
 }
 catch (e) {

@@ -85,7 +85,7 @@ function export_table_to_csv(html, filename) {
 function  downloadCSV() {
     let html = document.querySelector("table").outerHTML;
     export_table_to_csv(html, "boxList.csv");
-}
+
     let today = new Date();
     const yyyy = today.getFullYear();
     let mm = today.getMonth() + 1; // Months start at 0!
