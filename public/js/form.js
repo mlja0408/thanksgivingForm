@@ -15,11 +15,30 @@ catch (e) {
 
 try {
     function logData() {
-        const familyData = [familyName.value, phoneNumber.value, contactPerson.value, contactPersonPhone.value, numberOfFamilyMembers.value, pickupPerson.value,
-            dietaryRestrictions.value, otherDietaryRestrictions.value, notes.value];
-        console.log(familyData);
-        alert('Thank You! Your request has been submitted!');
-        document.getElementById('formRoot').reset();
+        const familyData = {
+            familyName: familyName.value,
+            phoneNumber: phoneNumber.value,
+            contactPerson: contactPerson.value,
+            contactPersonPhone: contactPersonPhone.value,
+            numberOfFamilyMembers: numberOfFamilyMembers.value,
+            pickupPerson: pickupPerson.value,
+            dietaryRestrictions: dietaryRestrictions.value,
+            other: otherDietaryRestrictions.value,
+            notes: notes.value
+        };
+
+        fetch('http://hlcathanksgivingboxes.com:3000/createinner', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(familyData),
+        })
+            .then(response => response.json())
+            .then(() => {
+            alert('Thank You! Your request has been submitted!');
+            document.getElementById('formRoot').reset();
+        }).catch((e) => console.error(e.stack));
     }
 }
 catch (e) {

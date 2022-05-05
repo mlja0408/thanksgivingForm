@@ -85,4 +85,4 @@ function export_table_to_csv(html, filename) {
 function  downloadCSV() {
     let html = document.querySelector("table").outerHTML;
     export_table_to_csv(html, "boxList.csv");
-};
+}
