@@ -38,7 +38,7 @@ try {
             .then(() => {
             alert('Thank You! Your request has been submitted!');
             document.getElementById('formRoot').reset();
-            }).catch((e) => console.error(e.stack), alert('Your request could not be submitted. Please call for assistance.'));
+            }).catch((e) => console.error(e.stack), alert('An error occurred. Your request could not be submitted. Please call HLCA at (208) 437 - 2184 for assistance.'));
     }
 }
 catch (e) {
