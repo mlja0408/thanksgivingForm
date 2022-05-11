@@ -17,6 +17,7 @@ header > h1 {
     width: 50%;
     display: inline;
 }
+
 button:hover {
     color: #ffffff;
     transition: 0.25s;
@@ -24,24 +25,30 @@ button:hover {
     cursor: pointer;
     background-color: #533194;
 }
+
 @font-face {
     font-family: Futura;
     src: url("./public/fonts/futura/futur.ttf");
 }
+
 @font-face {
     font-family: "Futura Book";
     src: url("./public/fonts/futura/Futura Book font.ttf");
 }
+
 body {
     font-family: "Futura Book", sans-serif;
     background-color: #ffffff;
 }
+
 textarea:focus, input:focus{
     outline: none;
 }
+
 form {
     text-align: center;
 }
+
 button {
     font-size: 16px;
     font-family: "Futura Book", sans-serif;
@@ -51,20 +58,24 @@ button {
     border-radius: 5px;
     color: #ffffff
 }
+
 a {
     text-decoration: none;
     color: #3D246D;
 }
+
 a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 th {
     padding: 0 1em;
     height: 15px;
     width: 100px;
     border: 1px solid #000000;
 }
+
 .form-label {
     margin-bottom: 5px;
     display: block;
@@ -79,6 +90,7 @@ th {
     background-color: none;
     max-width: 900px;
 }
+
 input {
     font-family: "Futura Book", sans-serif;
     margin: 15px;
@@ -88,6 +100,7 @@ input {
     width: 300px;
     font-size: 16px;
 }
+
 select {
     font-size: 16px;
     font-family: "Futura Book", sans-serif;
@@ -122,45 +135,56 @@ main {
     outline: none;
     border-bottom: 3px solid #3D246D;
 }
+
 .form-inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 @media screen and (max-width: 675px) {
     .form-inputs {
         grid-template-columns: 1fr;
     }
+
     #halfTwo {
       margin-top: 0.5em;
     }
+
     #form-end {
         overflow: hidden;
     }
 }
+
 #form-end {
     grid-column: span 2 / 2;
     margin-top: 1em;
 }
+
 #form-end > label.donation-page-form-label {
     margin-top: 1em;
 }
+
 #box-request-table {
     overflow-x: scroll;
     text-align: center;
 }
+
 table {
     margin: auto;
     border-collapse: collapse;
 }
+
 td {
     padding: 0.5em 0;
     height: 15px;
     width: 100px;
     border: 1px solid #000000;
 }
+
 tbody > tr:nth-of-type(2n) {
     background-color: #C0C0C0;
 }
+
 #notes {
     display: block;
     width: 100%;
@@ -172,6 +196,7 @@ tbody > tr:nth-of-type(2n) {
     max-width: 625px;
     font-size: 16px;
 }
+
 #admin-login {
     margin-top: 40px;
 }
