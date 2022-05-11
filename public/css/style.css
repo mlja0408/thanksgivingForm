@@ -219,3 +219,6 @@ tbody > tr:nth-of-type(2n) {
     border-radius: 5px;
     color: #ffffff
 }
+.adminTable {
+    margin-top: 20px;
+}
