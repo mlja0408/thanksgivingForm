@@ -204,12 +204,12 @@ tbody > tr:nth-of-type(2n) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.button-2{
+.button-2 {
     text-align: center;
     margin-top: 20px;
 }
 }
-.button-2 {;
+.button-2 {
     display: flex;
     font-size: 16px;
     font-family: "Futura Book", sans-serif;
@@ -217,8 +217,9 @@ tbody > tr:nth-of-type(2n) {
     border: 0;
     background-color: #3D246D;
     border-radius: 5px;
-    color: #ffffff
+    color: #ffffff;
 }
 .adminTable {
-    margin-top: 20px;
+    margin-top: 30px;
+    text-align: center;
 }
