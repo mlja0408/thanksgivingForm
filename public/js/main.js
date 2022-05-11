@@ -35,6 +35,7 @@ function writeData() {
             <td>${tableData.contactPersonPhone}</td>
             <td>${tableData.otherDietaryRestrictions}</td>
             <td class="notes">${tableData.notes}</td>
+            <td>${tableData.dateCreated}</td>
         </tr>    
     `
     }
@@ -94,6 +95,6 @@ function  downloadCSV() {
     if (dd < 10) dd = '0' + dd;
     if (mm < 10) mm = '0' + mm;
 
-    today = mm + '-' + dd + '-' + yyyy;
+    today = mm + '-' + dd + '-' + yyyy; 
     export_table_to_csv(html, today + ' ' + 'boxList.csv');
 }
