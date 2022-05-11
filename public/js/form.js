@@ -15,12 +15,55 @@ catch (e) {
 
 try {
     function logData() {
-        const familyData = [familyName.value, phoneNumber.value, contactPerson.value, contactPersonPhone.value, numberOfFamilyMembers.value, pickupPerson.value,
-            dietaryRestrictions.value, otherDietaryRestrictions.value, notes.value];
-        console.log(familyData);
-        alert('Thank You! Your request has been submitted!');
-        document.getElementById('formRoot').reset();
+        const familyData = {
+            familyName: familyName.value,
+            phoneNumber: phoneNumber.value,
+            contactPerson: contactPerson.value,
+            contactPersonPhone: contactPersonPhone.value,
+            numberOfFamilyMembers: numberOfFamilyMembers.value,
+            pickupPerson: pickupPerson.value,
+            dietaryRestrictions: dietaryRestrictions.value,
+            other: otherDietaryRestrictions.value,
+            notes: notes.value
+        };
+
+        fetch('http://hlcathanksgivingboxes.com:3000/createdinner', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(familyData),
+        })
+            .then(response => response.json())
+            .then(() => {
+            alert('Thank You! Your request has been submitted!');
+            document.getElementById('formRoot').reset();
+            }).catch((e) => console.error(e.stack), alert('An error occurred. Your request could not be submitted. Please call HLCA at (208) 437 - 2184 for assistance.'));
     }
+}
+catch (e) {
+    console.log(e);
+}
+try {
+    function allowOnlyLetters(e, t)   
+{    
+   if (window.event)    
+   {    
+      const charCode = window.event.keyCode;    
+   }    
+   else if (e)   
+   {    
+      const charCode = e.which;    
+   }    
+   else { return true; }    
+   if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123))    
+       return true;    
+   else  
+   {    
+      alert("Please enter only alphabets");    
+      return false;    
+   }           
+}   
 }
 catch (e) {
     console.log(e);
