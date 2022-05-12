@@ -200,7 +200,7 @@ tbody > tr:nth-of-type(2n) {
 #admin-login {
     margin-top: 40px;
 }
-.adminManage {
+.admin-manage {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -219,7 +219,7 @@ tbody > tr:nth-of-type(2n) {
     border-radius: 5px;
     color: #ffffff;
 }
-.adminTable {
+.admin-table {
     margin-top: 30px;
     text-align: center;
     width: 100%;
