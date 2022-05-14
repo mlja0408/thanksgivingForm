@@ -7,22 +7,28 @@ catch (e) {
 }
 function getLogin() {
     try {
-        const login = {
-            username: username.value,
-            password: password.value
-        }
-        fetch('http://hlcathanksgivingboxes.com:3000/adminlogin', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(login),
-        })
-            .then(response => response.json())
-            .then(() => {
+        //const login = {
+        //    username: username.value,
+        //    password: password.value
+        //}
+        //fetch('http://hlcathanksgivingboxes.com:3000/adminlogin', {
+        //    method: 'POST',
+        //    headers: {
+        //        'Content-Type': 'application/json',
+        //    },
+        //    body: JSON.stringify(login),
+        //})
+        //    .then(response => response.json())
+        //    .then(() => {
 
-                document.getElementById('adminLogin').submit();
-            }).catch((e) => console.error(e.stack));
+        //        document.getElementById('adminLogin').submit();
+        //    }).catch((e) => console.error(e.stack));
+        if (username.value === 'hi', password.value === 'hi') {
+            document.getElementById('adminLogin').submit();
+        }
+        else {
+            alert('Login failed. Please try again.');
+        }
     } catch (e) {
         console.log(e)
     }
