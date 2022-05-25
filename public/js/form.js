@@ -13,8 +13,8 @@ catch (e) {
     console.log(e);
 }
 
-try {
-    function logData() {
+function logData() {
+    try {
         const familyData = {
             familyName: familyName.value,
             phoneNumber: phoneNumber.value,
@@ -26,7 +26,7 @@ try {
             other: otherDietaryRestrictions.value,
             notes: notes.value
         };
-
+    
         fetch('http://hlcathanksgivingboxes.com:3000/createdinner', {
             method: 'POST',
             headers: {
@@ -39,8 +39,7 @@ try {
             alert('Thank You! Your request has been submitted!');
             document.getElementById('formRoot').reset();
             }).catch((e) => console.error(e.stack), alert('An error occurred. Your request could not be submitted. Please call HLCA at (208) 437 - 2184 for assistance.'));
+    } catch (e) {
+        console.log(e);
     }
-}
-catch (e) {
-    console.log(e);
-}
+} 
