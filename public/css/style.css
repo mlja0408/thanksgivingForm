@@ -205,11 +205,13 @@ tbody > tr:nth-of-type(2n) {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .button-2 {
+    display:flex;
     text-align: center;
     margin-top: 20px;
+    justify-content: center;
 }
 
-.button-2 {
+#button-2 {
     display: flex;
     font-size: 16px;
     font-family: "Futura Book", sans-serif;
