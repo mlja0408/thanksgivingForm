@@ -206,7 +206,7 @@ tbody > tr:nth-of-type(2n) {
 }
 .button-2 {
     text-align: center;
-    margin-top: 20px;
+    margin: 40px;
 }
 }
 .button-2 {
@@ -226,4 +226,8 @@ tbody > tr:nth-of-type(2n) {
 }
 .delete-admin {
     cursor: pointer;
+}
+.deleteAdmin {
+    display: flex;
+    text-align: center;
 }

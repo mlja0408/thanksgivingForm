@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon">
+    <script src="./public/js/admin.js"></script>
     <title>Manage Administrators - HLCA Thanksgiving Boxes</title>
 </head>
 <body>
@@ -44,10 +45,10 @@
                 <th>Email</th>
                 <th>Delete</th>
             </tr>
-            <tr>
+            <tr id="row1">
                 <td>Seth Wohlberg</td>
                 <td>sethmwohlberg@gmail.com</td>
-                <td class="delete-admin">x</td>
+                <td class="delete-admin" onclick="deleteAdmin()">x</td>
             </tr>
         </table>
     </main>
