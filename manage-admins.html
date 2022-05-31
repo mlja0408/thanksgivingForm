@@ -19,11 +19,11 @@
                 <p><a href="./admin-login.html">Log Out</a></p>
             </nav>
         </header>
-        <form>
+        <form id="addAdmin">
             <section class="admin-manage">
                 <section>
-                    <label for="admin-name">Admin Name</label>
-                    <input type="text" name="admin-name" id="admin-name">
+                    <label for="adminName">Admin Name</label>
+                    <input type="text" name="adminName" id="adminName">
                 </section>
                 <section>
                     <label for="Email">Email</label>
@@ -36,19 +36,23 @@
             </section>
         </form>
         <div class="button-2">
-            <button type="button" id="button-2" onclick="Placeholder">Create Admin</button>
+            <button type="button" id="button-2" onclick="addAdmin()">Create Admin</button>
         </div>
         <table class=admin-table>
-            <tr>
-                <th>Admin Name</th>
-                <th>Email</th>
-                <th>Delete</th>
-            </tr>
-            <tr id="row1">
-                <td>Seth Wohlberg</td>
-                <td>sethmwohlberg@gmail.com</td>
-                <td class="delete-admin" onclick="deleteAdmin()">x</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Admin Name</th>
+                    <th>Email</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tableBodyRoot">
+                <tr id="row1">
+                    <td>Seth Wohlberg</td>
+                    <td>sethmwohlberg@gmail.com</td>
+                    <td class="delete-admin" onclick="deleteAdmin()">x</td>
+                </tr>
+            </tbody>
         </table>
     </main>
 </body>
